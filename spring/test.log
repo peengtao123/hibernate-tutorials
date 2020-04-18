@@ -1,0 +1,33 @@
+2020-04-17 13:01:01 DEBUG Log4jTest:13 - debug
+2020-04-17 13:01:01 WARN  Log4jTest:14 - warm
+2020-04-17 13:01:01 ERROR Log4jTest:15 - error
+2020-04-17 13:01:18 DEBUG Log4jTest:13 - debug
+2020-04-17 13:01:18 WARN  Log4jTest:14 - warm
+2020-04-17 13:01:18 ERROR Log4jTest:15 - error
+2020-04-17 13:06:36 DEBUG Log4jTest:13 - debug
+2020-04-17 13:06:36 WARN  Log4jTest:14 - warm
+2020-04-17 13:06:36 ERROR Log4jTest:15 - error
+2020-04-17 13:07:30 DEBUG Log4jTest:13 - debug
+2020-04-17 13:07:30 WARN  Log4jTest:14 - warm
+2020-04-17 13:07:30 ERROR Log4jTest:15 - error
+2020-04-18 17:39:41 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6108b2d7
+2020-04-18 17:39:46 DEBUG XmlBeanDefinitionReader:391 - Loaded 2 bean definitions from class path resource [dao.xml]
+2020-04-18 17:39:50 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myDataSource'
+2020-04-18 17:39:54 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'mySessionFactory'
+2020-04-18 17:39:58 DEBUG logging:28 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-04-18 17:40:02 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2020-04-18 17:40:06 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2020-04-18 17:40:10 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2020-04-18 17:40:14 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.14.Final
+2020-04-18 17:40:18 DEBUG Environment:199 - HHH000206: hibernate.properties not found
+2020-04-18 17:40:22 WARN  ClassPathXmlApplicationContext:558 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mySessionFactory' defined in class path resource [dao.xml]: Invocation of init method failed; nested exception is java.io.FileNotFoundException: class path resource [product.hbm.xml] cannot be opened because it does not exist
+2020-04-18 17:40:49 DEBUG ClassPathXmlApplicationContext:595 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6108b2d7
+2020-04-18 17:40:54 DEBUG ClassPathBeanDefinitionScanner:437 - Identified candidate component class: file [D:\学习\hibernate-tutorials\spring\target\classes\cn\fox\dao\UserDao.class]
+2020-04-18 17:40:58 DEBUG XmlBeanDefinitionReader:391 - Loaded 7 bean definitions from class path resource [test.xml]
+2020-04-18 17:41:02 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-04-18 17:41:06 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-04-18 17:41:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-04-18 17:41:14 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-04-18 17:41:18 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2020-04-18 17:41:22 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+2020-04-18 17:41:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
